@@ -73,11 +73,24 @@ img, video {
 }
 
 .hero-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: 0.05rem;
-    line-height: 4rem;
+    line-height: 3rem;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
 
+}
+
+/* Add Media Queries for Large Screens */
+@media (min-width: 600px) {
+    .hero-heading{
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .hero-text {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
 }
