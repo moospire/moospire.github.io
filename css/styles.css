@@ -75,6 +75,7 @@ img, video {
 .hero-heading {
     font-size: 4rem;
     letter-spacing: 0.05rem;
+    line-height: 4rem;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
