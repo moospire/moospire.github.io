@@ -24,8 +24,40 @@ img, video {
     display: block;
 }
 
+/* nav bar styles */
+nav {
+    margin-top: -15px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+}
+
+.nav-bar {
+    background-color: black;
+}
+
+.nav-bar li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+
+}
+
+.nav-bar li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: white;
+    line-height: 50px;
+    padding: 0 2rem 0 2rem;
+}
+
 /* hero styles */
 .hero-box {
+  padding: 20px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -47,9 +79,10 @@ img, video {
 
 
 .hero-image-box::after {
+  margin-top: 50px;
   content: "";
   background-color: rgba(0, 0, 0, 0.4);
-  height: 50vh;
+  height: 55vh;
   width: 100%;
   position: absolute;
   top: 0;
